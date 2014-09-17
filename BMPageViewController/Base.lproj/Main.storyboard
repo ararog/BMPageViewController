@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="GuE-fq-oHZ">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--Page 1-->
+        <scene sceneID="Ual-mo-ucC">
+            <objects>
+                <viewController storyboardIdentifier="page1" id="JmV-S7-aSA" userLabel="Page 1" customClass="BMPageViewControllerPage" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iJC-ZO-exP"/>
+                        <viewControllerLayoutGuide type="bottom" id="09F-FF-jSx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qg0-kz-0kI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is page 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gkR-lZ-glL">
+                                <rect key="frame" x="247" y="290" width="107" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="gkR-lZ-glL" secondAttribute="centerX" id="dn2-RJ-5DB"/>
+                            <constraint firstAttribute="centerY" secondItem="gkR-lZ-glL" secondAttribute="centerY" id="pv6-Er-Bw4"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JTe-vc-oER" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-705" y="10"/>
+        </scene>
+        <!--Page 2-->
+        <scene sceneID="cIS-Iu-Lsd">
+            <objects>
+                <viewController storyboardIdentifier="page2" id="h2W-8P-mxS" userLabel="Page 2" customClass="BMPageViewControllerPage" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vcR-VK-QOI"/>
+                        <viewControllerLayoutGuide type="bottom" id="XmZ-OD-Z0m"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aMC-Dx-HWV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is page 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7AW-Pt-wye">
+                                <rect key="frame" x="247" y="290" width="107" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="7AW-Pt-wye" secondAttribute="centerX" id="Dyv-3J-gXp"/>
+                            <constraint firstAttribute="centerY" secondItem="7AW-Pt-wye" secondAttribute="centerY" id="iif-Fp-Plb"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9KY-g5-eTm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-65" y="10"/>
+        </scene>
+        <!--Page 3-->
+        <scene sceneID="ZEE-ci-sfJ">
+            <objects>
+                <viewController storyboardIdentifier="page3" id="0Ea-JN-Jen" userLabel="Page 3" customClass="BMPageViewControllerPage" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nel-mo-2fB"/>
+                        <viewControllerLayoutGuide type="bottom" id="vJg-CL-xA9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="K3r-e8-mi6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is page 3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sTZ-Qb-mwv">
+                                <rect key="frame" x="247" y="290" width="107" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="sTZ-Qb-mwv" secondAttribute="centerX" id="fD6-hM-WJp"/>
+                            <constraint firstAttribute="centerY" secondItem="sTZ-Qb-mwv" secondAttribute="centerY" id="kJn-kY-Nw3"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kfb-SO-ufy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="576" y="10"/>
+        </scene>
+        <!--Page 4-->
+        <scene sceneID="Cxa-G6-T7r">
+            <objects>
+                <viewController storyboardIdentifier="page4" id="d5Z-7o-w6k" userLabel="Page 4" customClass="BMPageViewControllerPage" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UfZ-7a-xPi"/>
+                        <viewControllerLayoutGuide type="bottom" id="6KJ-Qz-3d8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WkI-7b-4ka">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is page 4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="teh-AR-z4y">
+                                <rect key="frame" x="247" y="290" width="107" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="teh-AR-z4y" secondAttribute="centerX" id="Ehp-os-M33"/>
+                            <constraint firstAttribute="centerY" secondItem="teh-AR-z4y" secondAttribute="centerY" id="Hgz-S9-K6F"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TKE-xw-0WU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1216" y="10"/>
+        </scene>
+        <!--Page View Controller Example-->
+        <scene sceneID="Wdx-3A-3Vr">
+            <objects>
+                <pageViewController storyboardIdentifier="BMPageViewControllerExample" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="GuE-fq-oHZ" customClass="BMPageViewControllerExample" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lfV-R9-sxL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="256" y="-667"/>
+        </scene>
+    </scenes>
+</document>
