@@ -19,8 +19,6 @@
  */
 @interface BMPageViewController () <UIPageViewControllerDataSource>
 
-@property (nonatomic) NSInteger currentPage;
-
 /**
  * @note Must be overridden.
  * @discussion The pages for this page view controller
