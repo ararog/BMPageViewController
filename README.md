@@ -53,12 +53,13 @@ Setting the initial page when BMPageViewController is loaded:
 ```
 
 Changing page programatically:
-
+```objc
 - (void) buttonClicked {
 
        //self.parentViewController is a BMPageViewController subclass
 	[self.parentViewController changePage: 2];
 }
+```
 
 if the current page is page 3 and we change the page above, the code will do the job and pick the correct
 direction of navigation.
