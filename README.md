@@ -41,6 +41,29 @@ Then in your ```BMPageViewController``` subclass you can override this method to
 }
 ```
 
+## Changing pages by code:
+
+Setting the initial page when BMPageViewController is loaded:
+```objc
+- (void) viewDidLoad {
+
+	self.currentPage = 3;
+	[self viewDidLoad];
+}
+```
+
+Changing page programatically:
+
+- (void) buttonClicked {
+
+       //self.parentViewController is a BMPageViewController subclass
+	[self.parentViewController changePage: 2];
+}
+
+if the current page is page 3 and we change the page above, the code will do the job and pick the correct
+direction of navigation.
+
+
 ## Instalation:
 - Using [Cocoapods](http://cocoapods.org/):
 
