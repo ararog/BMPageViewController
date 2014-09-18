@@ -2,6 +2,7 @@ BMPageViewController
 ====================
 
 ## Description:
+
 Did you ever want to implement a simple ```UIPageViewController``` and realized that you had to do it all by code?
 With ```BMPageViewController``` you will be able to design each page from a single storyboard!
 
@@ -52,11 +53,11 @@ Setting the initial page when BMPageViewController is loaded:
 }
 ```
 
-Changing page programatically:
+Changing page programatically from BMViewControllerPages:
 ```objc
 - (void) buttonClicked {
 
-       //self.parentViewController is a BMPageViewController subclass
+	//self.parentViewController is a BMPageViewController subclass
 	[self.parentViewController changePage: 2];
 }
 ```
@@ -83,5 +84,11 @@ Simply add the files under [Source](BMPageViewController/Source) to your project
 - Requires ARC. If you want to use it in a project without ARC, mark the implementation files with the linker flag ```-fobjc-arc```.
 - Supports iOS iOS6+.
 
+
+## Notes
+
+`BMPageViewController` is mainly based on MSPageViewController with some additions on paging support.
+
 ## License
-`BMPageViewController` is available under the WTFPL license. See the [LICENSE file](LICENSE) for more info.
+
+`BMPageViewController` is available under the MIT license. See the [LICENSE file](LICENSE) for more info.
